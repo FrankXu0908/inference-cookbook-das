@@ -10,11 +10,11 @@ Wan2.2-T2V-A14B 是阿里通义实验室推出的文生视频（Text-to-Video）
 
 | 模型权重 | 量化方式 | SGLang 镜像 | 推荐硬件 | 卡数 | 部署方式 | 启动命令 |
 | -------- | -------- | ----------- | -------- | ---- | -------- | -------- |
-| [Wan-AI/Wan2.2-T2V-A14B-Diffusers](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B-Diffusers) | BF16 | 0.5.10 | BW1100 | 4x | Online | [启动命令](#wan22-t2v-a14b-diffusers-online-bw1100-4x-sglang-0510) |
+| [Wan-AI/Wan2.2-T2V-A14B-Diffusers](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B-Diffusers) | BF16 | 0.5.18 | BW1100 | 4x | Online | [启动命令](#wan22-t2v-a14b-diffusers-online-bw1100-4x-sglang-0510) |
 
 ## 启动命令
 
-### Wan2.2-T2V-A14B-Diffusers Online BW1100 4x SGLang 0.5.10
+### Wan2.2-T2V-A14B-Diffusers Online BW1100 4x SGLang 0.5.18
 
 以下命令保留 BW1100 硬件队列性能配置，并启用 Cache-DiT，可降低 Wan2.2 双 transformer denoise 阶段耗时。
 

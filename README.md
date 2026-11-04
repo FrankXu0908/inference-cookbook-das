@@ -32,7 +32,12 @@
   </tr>
   <tbody>
     <tr>
-      <td rowspan="22" align="center"><img src="https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png" height="40"/><br/>Qwen</td>
+      <td rowspan="23" align="center"><img src="https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png" height="40"/><br/>Qwen</td>
+      <td>Qwen-Image-2.1</td>
+      <td>SGLang Diffusion 0.5.22</td>
+      <td align="center">-</td><td align="center"><a href="docs/model-deployment/sglang/qwen-image-2.1.md">✅</a></td><td align="center">-</td>
+    </tr>
+    <tr>
       <td rowspan="2">Qwen3.8</td>
       <td>vLLM</td>
       <td align="center"><a href="docs/model-deployment/vllm/qwen3.8.md">✅</a></td><td align="center"><a href="docs/model-deployment/vllm/qwen3.8.md">✅</a></td><td align="center"><a href="docs/model-deployment/vllm/qwen3.8.md">✅</a></td>
