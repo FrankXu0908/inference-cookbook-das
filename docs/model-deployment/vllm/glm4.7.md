@@ -128,7 +128,7 @@ vllm serve ZhipuAI/GLM-4.7 \
   --speculative-config '{"method":"mtp","num_speculative_tokens":3,"attention_backend":"TRITON_ATTN"}' \
   --disable-cascade-attn \
   --compilation-config '{"cudagraph_mode":"PIECEWISE"}' \
-  --max-model-len 32768 \
+  --max-model-len 131072 \
   --max-num-batched-tokens 16384 \
   --max-num-seqs 64
 ```
@@ -152,7 +152,7 @@ vllm serve ZhipuAI/GLM-4.7 \
   --speculative-config '{"method":"mtp","num_speculative_tokens":3,"attention_backend":"TRITON_ATTN"}' \
   --disable-cascade-attn \
   --compilation-config '{"cudagraph_mode":"PIECEWISE"}' \
-  --max-model-len 32768 \
+  --max-model-len 131072 \
   --max-num-batched-tokens 16384 \
   --max-num-seqs 64 \
   --headless
@@ -480,8 +480,8 @@ vllm serve ZhipuAI/GLM-4.7-Flash \
   --enable-auto-tool-choice \
   --tool-call-parser glm47 \
   --reasoning-parser glm47 \
-  --max-model-len 32768 \
-  --max-num-batched-tokens 16384 \
+  --max-model-len -1 \
+  --max-num-batched-tokens 8192 \
   --max-num-seqs 64
 ```
 
